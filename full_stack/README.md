@@ -22,3 +22,7 @@ python -m pip install Django
 ```
 python manage.py startapp <your_app_name>
 ```
+### 4. To run development server
+```
+python manage.py runserver
+```
