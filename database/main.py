@@ -1,7 +1,7 @@
 import sqlite3
-
+import os
 try:
-    sqliteConnection = sqlite3.connect('python2_db')
+    sqliteConnection = sqlite3.connect('python_db.db')
     cursor = sqliteConnection.cursor()
     print("Database created and connected to sqlite")
 
